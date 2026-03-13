@@ -17,7 +17,7 @@ resource "yandex_compute_instance" "platform" {
   platform_id = "standart-v4"
   resources {
     cores         = 1
-    memory        = 1
+    memory        = 2
     core_fraction = 5
   }
   boot_disk {
