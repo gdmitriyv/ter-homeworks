@@ -1,13 +1,13 @@
 
 variable "cloud_id" {
   type        = string
-  default     = "b1gcal7e7b71h8bll679"
+  default     = "id"
   description = "https://cloud.yandex.ru/docs/resource-manager/operations/cloud/get-id"
 }
 
 variable "folder_id" {
   type        = string
-  default     = "b1gdfb3utje177var1ls"
+  default     = "id"
   description = "https://cloud.yandex.ru/docs/resource-manager/operations/folder/get-id"
 }
 
@@ -103,6 +103,6 @@ variable "metadatas" {
 
 variable "vms_ssh_root_key" {
   type        = string
-  default     = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDPmiVglCp8SYdU0Ye3bNKeBlAEjeG7OxYuLAdAqYYiHb0XVhNtjJArkSfWsSbqkWa8je/ckLsOB2IzLSgvtKwoEDbHU5D1puKWP0LQ+tQutxySb1njdBbPpqFf+Y0PLGe1RY+7CDBUd2ToToJoYk4UEXeXjgxBadpcxAUAkaB3tl4z6tMPrR/SSvR3DB9vo1NbBtwWtttZakY3QepQvCKyrqhvZ9RbksWuQ5tDleR9c/YSlP1KxD77+2/gN/gdDiWtmiSZvAbAAFjDn8yTqQVPrDHHrKQrsOOLfomxzIGk6s0FKkQFdniNKR0BTfvhV15WmnrnIyM8UwJXrkQJ7gch"
+  default     = "ssh-rsa my key"
   description = "ssh-keygen -t ed25519"
 }
